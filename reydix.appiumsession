@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "14"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "nightwatch-android-11"
+    },
+    {
+      "type": "text",
+      "name": "appium:appPackage",
+      "value": "com.loginregister.app"
+    },
+    {
+      "type": "text",
+      "name": "appium:appActivity",
+      "value": "com.loginregister.app.MainActivity"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UiAutomator2"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "port": "4723",
+      "hostname": "localhost",
+      "ssl": false
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {
+      "allowUnauthorized": true,
+      "useProxy": true
+    },
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
