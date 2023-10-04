@@ -1,4 +1,4 @@
-Setup and Execution instructions
+Setup and Execution instructions:
 
 In order to install Nightwatch please refer to: https://nightwatchjs.org/guide/quickstarts/create-and-run-a-nightwatch-test.html
 In order to run mobile app testing with Nightwatch please refer to: https://github.com/nightwatchjs/mobile-helper-tool
@@ -24,5 +24,15 @@ To run the test go to your root folder and run "node nightwatch -e app.android.e
 Desired capabilities of Appium session are found on the repo in file "reydix.appiumsession"
 
 Generated test report is found in file "app.android.emulator_1696430101575.html" which is also on the repo
+
+Scenarios covered:
+
+1. Succesful registration
+2. Succesful login
+3. Succesful logout
+4. Unsuccesful login
+5. Burger menu assertions
+6. Functionality of Demographics and Add Event
+
 
 
