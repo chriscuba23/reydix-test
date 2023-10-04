@@ -12,6 +12,7 @@ Once you have the configuration file ready edit the following parameters to matc
 In order to run the test you have to have the following packages that act as dependencies from npm:
 
 https://www.npmjs.com/package/@faker-js/faker
+&
 https://www.npmjs.com/package/moment
 
 In any case I am also adding the package.json and nightwatch.conf.js files for extra help
